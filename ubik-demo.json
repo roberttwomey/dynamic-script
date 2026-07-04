@@ -1,0 +1,72 @@
+{
+    "paragraphs": [
+        {
+            "id": "gen0",
+            "type": "gen",
+            "prompt": "write a title for an AI generated script adaptation of Philip K. Dick's book Ubik that takes the form of a joke. do not use the word Ubik.\n",
+            "text": "An AI, A Half-Dead and a group of paranormal friends walk into a pre-cog bar\n"
+        },
+        {
+            "id": "text0",
+            "type": "text",
+            "text": "========\n\nINTRO ADVERTISEMENT\n\n"
+        },
+        {
+            "id": "gen1",
+            "type": "gen",
+            "prompt": "choose one type of product: home or beauty or auto or office or lifestyle or fashion or health.\nwrite a short advertisement for that product, called Ubik. three sentences long.\n",
+            "text": "Introducing Ubik, the ultimate home automation device that seamlessly integrates all your smart devices and transforms your living space into a futuristic haven. Control your lights, thermostats, and security systems with a simple voice command or effortlessly through our companion app. Upgrade your home with Ubik and experience unparalleled convenience and comfort like never before.\n"
+        },
+        {
+            "id": "interiorapt",
+            "type": "text",
+            "text": ""
+        },
+        {
+            "id": "genapt",
+            "type": "gen",
+            "prompt": "Write a short description of an apartment owned by JOE CHIP from the novel Ubik. It is packed with automatic, coin-operated appliances. Ironically, JOE has no money to use his own space. Write this in the form of a screenplay. three sentences at most.\nBegin the paragraph with INT. RETRO-FUTURISTIC APARTMENT - DAY\n",
+            "text": "INT. RETRO-FUTURISTIC APARTMENT - DAY\n\nJoe Chip's apartment is a perfectly curated time capsule of retro-futuristic design. The walls are adorned with vibrant, geometric patterns, while a fluorescent orange shag carpet covers the floor. Sun rays filter through the room, reflecting off the chrome accents of the myriad of automatic appliances lining the walls. From the coin-operated coffee machine to the self-cleaning shower, every aspect of the apartment begs for a handful of coins to activate its mechanical wonders. Ironically, Joe stands in the center of his technologically advanced domain, empty pockets jingling with nothing but the reminder of his financial hardship.\n\n\n\n"
+        },
+        {
+            "id": "genobjects",
+            "type": "gen",
+            "prompt": "choose three small items from a household junk drawer, and rewrite the following sentence using objects:\nSound of doorbell; we see CHIP stumble up, spilling several small objects from his lap. Voice of G.G. ASHWOOD on the other side of the door\n",
+            "text": "Sound of doorbell; we see CHIP stumble up, spilling a keychain, a rubber band, and a paperclip from his lap. Voice of G.G. ASHWOOD on the other side of the door.\n\n\n\n"
+        },
+        {
+            "id": "genprospect",
+            "type": "gen",
+            "prompt": "GG ASHWOOD recruited a new prospect for his anti-psyionics organization with JOE CHIP. Write a few lines of dialog where ASHWOOD explains to CHIP where he recruited the prospect, and what they can do. Five lines maximum.",
+            "text": "ASHWOOD: Joe, I've recruited a new prospect for our organization.\nCHIP: That's great, Ashwood! Where did you find them?\nASHWOOD: Believe it or not, I found them at the Psionics Research Facility in the city.\nCHIP: Really? What are their skills?\nASHWOOD: They have an exceptional ability to detect and neutralize psychic energies, Joe. A true asset to our cause.\nCHIP: Impressive! Can't wait to meet them and see what they can bring to the team."
+        },
+
+        {
+            "id": "propspect",
+            "type": "text",
+            "text": "ASHWOOD\nI read this one as magnificent and I want your confirmation.\n\nJOE CHIP\n\nI don't have any test equipment in the apt. It's an anti-what? Anti-telepath?\n\nASHWOOD\n\nI'll lay it right on you upfront, Joe, I don't know. This is confidential, this one.\n\nJOE CHIP\n\nOkay! Give me five minutes to get dressed and find out if I've got any coffee around the apt.\n\nASHWOOD\n\nYou'll like her.\n\nJOE CHIP\n\nPardon? (displays panic) My apt's unfit to be seen; I'm behind in my payments to the building clean-up robots. They haven't wheeled in here in two weeks. (Pauses, with mixed emotions) How old is she?\n\n"
+        },
+        {
+            "id": "gendoor",
+            "type": "gen",
+            "prompt": "write four lines of spoken dialog between JOE CHIP and an automatic, coin-operated front door. JOE is trying to get the door to open so his guests can enter. The device is reluctant to open the door because he has no money. Ultimately he convinces the door to let them in. four lines of dialog maximum.\n",
+            "text": "INT. JOE'S APARTMENT BUILDING - FRONT DOOR - DAY\n\nJOE CHIP stands impatiently in front of the automatic front door, with his guests waiting behind him.\n\nJOE\n\nCome on, open up! I have guests coming.\n\nAUTOMATIC FRONT DOOR\n\nI'm sorry, but entry requires payment. Please insert coins.\n\nJOE\n\n(pleadingly)\n\nI'm all out of change! Can't you make an exception this once?\n\nAUTOMATIC FRONT DOOR\n\n(skeptically)\n\nExceptional circumstances grant exceptional privileges. Fine, but just this once, Joe.\n\nThe door reluctantly opens, allowing JOE and his guests to enter.\n\n\n"
+        },
+        {
+            "id": "opendoor",
+            "type": "text",
+            "text": "[JOE, PAT, and ASHWOOD MEET]\n\n"
+        },
+        {
+            "id": "genedit",
+            "type": "gen",
+            "prompt": "Write one paragraph of stage direction where PAT CONLEY from the Philip K Dick book Ubik re-edits reality.\n",
+            "text": "As the stage lights dim, an eerie silence fills the air. PAT CONLEY, a middle-aged woman with a determined look on her face, steps forward into a spotlight. She holds a small device in her hand, emitting a faint blue glow. With swift and precise movements, she manipulates the device, as if typing commands into thin air. As her fingers dance through the invisible interface, the scenery behind her transforms in real-time, shifting and morphing with each keystroke. Walls bend and twist, objects disappear and reappear, and time itself seems to stutter. The audience watches in awe as Pat Conley, the master of reality manipulation, seamlessly re-edits the very fabric of their perceptions.\n\n\n"
+        },
+        {
+            "id": "loop",
+            "type": "text",
+            "text": "RETURN TO BEGINNING\n\n"
+        }
+    ]
+}
