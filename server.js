@@ -148,9 +148,9 @@ io.on('connection', (socket) => {
 
 // ── Ollama completion ──────────────────────────────────────────────────────
 async function promptOllama(prompt, targetId, socket) {
+  const startTime = Date.now();
   try {
     console.log(`[ollama] prompting model=${OLLAMA_MODEL}`);
-    const startTime = Date.now();
 
     const response = await openai.chat.completions.create({
       model:    OLLAMA_MODEL,
