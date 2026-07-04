@@ -14,7 +14,7 @@
         {
             "id": "gen1",
             "type": "gen",
-            "prompt": "choose one type of product: home or beauty or auto or office or lifestyle or fashion or health.\nwrite a short advertisement for that product, called Ubik. three sentences long.\n",
+            "prompt": "choose one type of product: home or beauty or auto or office or lifestyle or fashion or health.\nwrite a short advertisement for that product, called Ubik. 3-5 sentences long. Output the ad copy only. Do not generate headings.\n",
             "text": "Introducing Ubik, the ultimate home automation device that seamlessly integrates all your smart devices and transforms your living space into a futuristic haven. Control your lights, thermostats, and security systems with a simple voice command or effortlessly through our companion app. Upgrade your home with Ubik and experience unparalleled convenience and comfort like never before.\n"
         },
         {
@@ -40,7 +40,6 @@
             "prompt": "GG ASHWOOD recruited a new prospect for his anti-psyionics organization with JOE CHIP. Write a few lines of dialog where ASHWOOD explains to CHIP where he recruited the prospect, and what they can do. Five lines maximum.",
             "text": "ASHWOOD: Joe, I've recruited a new prospect for our organization.\nCHIP: That's great, Ashwood! Where did you find them?\nASHWOOD: Believe it or not, I found them at the Psionics Research Facility in the city.\nCHIP: Really? What are their skills?\nASHWOOD: They have an exceptional ability to detect and neutralize psychic energies, Joe. A true asset to our cause.\nCHIP: Impressive! Can't wait to meet them and see what they can bring to the team."
         },
-
         {
             "id": "propspect",
             "type": "text",
