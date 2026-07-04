@@ -154,6 +154,7 @@ async function promptOllama(prompt, targetId, socket) {
     const response = await openai.chat.completions.create({
       model:    OLLAMA_MODEL,
       messages: [{ role: 'user', content: prompt }],
+      num_predict: 128,  // Disable thinking by limiting response length
     });
 
     const completion = response.choices[0].message.content;
