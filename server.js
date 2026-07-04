@@ -150,6 +150,7 @@ io.on('connection', (socket) => {
 async function promptOllama(prompt, targetId, socket) {
   try {
     console.log(`[ollama] prompting model=${OLLAMA_MODEL}`);
+    const startTime = Date.now();
 
     const response = await openai.chat.completions.create({
       model:    OLLAMA_MODEL,
@@ -157,12 +158,17 @@ async function promptOllama(prompt, targetId, socket) {
       num_predict: 128,  // Disable thinking by limiting response length
     });
 
+    const endTime = Date.now();
+    const duration = endTime - startTime;
+    
     const completion = response.choices[0].message.content;
-    console.log(`[ollama] completion (${completion.length} chars): ${completion.slice(0, 64)}...`);
+    console.log(`[ollama] completion (${completion.length} chars, ${duration}ms): ${completion.slice(0, 64)}...`);
 
     socket.emit('completion', { completion, id: targetId });
   } catch (err) {
-    console.error('[ollama] error:', err.message || err);
+    const endTime = Date.now();
+    const duration = endTime - startTime;
+    console.error(`[ollama] error after ${duration}ms:`, err.message || err);
     socket.emit('completion', {
       completion: `[Error contacting Ollama: ${err.message}]`,
       id: targetId,
